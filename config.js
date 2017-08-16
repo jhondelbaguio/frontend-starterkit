@@ -11,6 +11,8 @@ module.exports = {
 
         return config;
     },
+
+    // vendor paths
     vendor: function() {
         var assets = {
             css: [
