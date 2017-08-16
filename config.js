@@ -11,18 +11,15 @@ module.exports = {
 
         return config;
     },
+
+    // vendor paths
     vendor: function() {
         var assets = {
             css: [
-                "bower_components/lightcase/src/css/lightcase.css",
-                "bower_components/owl.carousel/dist/assets/owl.carousel.min.css"
             ],
             js: [
                 "bower_components/jquery/dist/jquery.min.js",
-                "bower_components/bootstrap/dist/js/bootstrap.min.js",
-                "bower_components/typed.js/dist/typed.min.js",
-                "bower_components/lightcase/src/js/lightcase.js",
-                "bower_components/owl.carousel/dist/owl.carousel.min.js"
+                "bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"
             ],
             fonts:[
                 "bower_components/lightcase/src/fonts/**/*",
